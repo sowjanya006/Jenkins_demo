@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testobject name="is_value_in_range" type="0" id="1028" foreign_id="0" testdata_id="1" state_mask="0x00000F0360007F88" last_id="0" child_count="10" uuid="e77aa4dd-0dd5-40c1-9669-a439695cbc2d" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710129" last_synchronized="0">
+	<version value="4.2.8">
+	</version>
+	<properties>
+	</properties>
+	<testitems>
+		<testcase name="Simple" type="1" id="1030" foreign_id="0" testdata_id="1073741823" state_mask="0x60003700" testcase_number="1" child_count="1" description="The normal combinations using positive numbers for range and position. The normal combinations using positive numbers for range and position 2. The normal combinations using positive numbers for range and position 3. The normal combinations using positive numbers for range and position 4." specification="- Range Start:Positive&#10;- Range Length:Positive&#10;- Position:Inside&#10;  - Position in Range:Middle" comment="This&#10;is&#10;&#195;&#182;&#10;comment." uuid="ba84247e-08c5-4b02-84fb-c65e35bf4f3a" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710059" last_synchronized="0">
+			<teststep name="" id="1031" foreign_id="0" testdata_id="1073741824" type="1" state_mask="0x60003700" repeat_count="1" description="" specification="" comment="" uuid="1dd2a3dc-63c9-47dd-a7cd-62f20ccf1928" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710059" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="" type="1" id="1032" foreign_id="0" testdata_id="1073741825" state_mask="0x3700" testcase_number="2" child_count="1" description="" specification="- Range Start:Positive&#10;- Range Length:Positive&#10;- Position:Outside&#10;  - Where ?:Above" comment="" uuid="9d188d34-49e3-4f9d-8d37-3bc5f849408a" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710082" last_synchronized="0">
+			<teststep name="" id="1033" foreign_id="0" testdata_id="1073741826" type="1" state_mask="0x3700" repeat_count="1" description="" specification="" comment="" uuid="2dfc5d09-6224-4627-bbdf-1ae273ce199a" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710082" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="" type="1" id="1034" foreign_id="0" testdata_id="1073741827" state_mask="0x3700" testcase_number="3" child_count="1" description="" specification="- Range Start:Zero&#10;- Range Length:Positive&#10;- Position:Inside&#10;  - Position in Range:Upper Border" comment="" uuid="b93b2243-5f51-4659-91dc-dcd74abd49f4" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710106" last_synchronized="0">
+			<teststep name="" id="1035" foreign_id="0" testdata_id="1073741828" type="1" state_mask="0x3700" repeat_count="1" description="" specification="" comment="" uuid="44ca3398-606c-45b3-9dcc-957f031ece26" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710106" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="" type="1" id="1036" foreign_id="0" testdata_id="1073741829" state_mask="0x3700" testcase_number="4" child_count="1" description="" specification="- Range Start:Negative&#10;- Range Length:Positive&#10;- Position:Inside&#10;  - Position in Range:Lower Border" comment="" uuid="e7afb37a-11d3-419a-aa92-ea8587373ea8" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710118" last_synchronized="0">
+			<teststep name="" id="1037" foreign_id="0" testdata_id="1073741830" type="1" state_mask="0x3700" repeat_count="1" description="" specification="" comment="" uuid="724ef297-7a06-4da2-9abc-5b4213e5f894" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710118" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="Length=0" type="1" id="1038" foreign_id="0" testdata_id="1073741831" state_mask="0x3700" testcase_number="5" child_count="1" description="Special case: Length of range equals zero." specification="- Range Start:Positive&#10;- Range Length:Zero&#10;- Position:Outside&#10;  - Where ?:Above" comment="" uuid="48895d8b-4ac5-4146-804b-6fbc2391473f" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710129" last_synchronized="0">
+			<teststep name="" id="1039" foreign_id="0" testdata_id="1073741832" type="1" state_mask="0x3700" repeat_count="1" description="" specification="" comment="" uuid="1426bea8-2463-4a0a-8861-41ae6bf60ddb" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710129" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="" type="1" id="1040" foreign_id="0" testdata_id="1073741833" state_mask="0x3700" testcase_number="6" child_count="1" description="" specification="- Range Start:Zero&#10;- Range Length:Zero&#10;- Position:Outside&#10;  - Where ?:Below" comment="" uuid="0c42b217-e3b1-4576-a6da-43f9aedaee98" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710026" last_synchronized="0">
+			<teststep name="" id="1041" foreign_id="0" testdata_id="1073741834" type="1" state_mask="0x3700" repeat_count="1" description="" specification="" comment="" uuid="08d279dd-32f6-4550-bea6-0d2fc801015f" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710026" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="" type="1" id="1042" foreign_id="0" testdata_id="1073741835" state_mask="0x3700" testcase_number="7" child_count="1" description="" specification="- Range Start:Negative&#10;- Range Length:Zero&#10;- Position:Inside&#10;  - Position in Range:Middle" comment="" uuid="fdea89ec-f0c3-440d-969e-44aa52581bb8" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710039" last_synchronized="0">
+			<teststep name="" id="1043" foreign_id="0" testdata_id="1073741836" type="1" state_mask="0x3700" repeat_count="1" description="" specification="" comment="" uuid="6992e54f-6537-48cb-8c8e-12fc95a345ee" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710039" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="Special" type="1" id="1044" foreign_id="0" testdata_id="1073741837" state_mask="0x5B00" testcase_number="8" child_count="1" description="More sophisticated tests." specification="- Range Start:Positive&#10;- Range Length:Negative&#10;- Position:Inside&#10;  - Position in Range:Middle" comment="" uuid="75ff0228-15ac-412f-85dc-64eeeb61464f" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710050" last_synchronized="0">
+			<teststep name="Test Step 8.1" id="1045" foreign_id="0" testdata_id="1073741838" type="1" state_mask="0x5B00" repeat_count="1" description="Description 8.1" specification="Specification 8.1" comment="Comment 8.1" uuid="27655583-8318-4e06-80e0-f44040c9a187" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710050" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="" type="1" id="1046" foreign_id="0" testdata_id="1073741839" state_mask="0x5B00" testcase_number="9" child_count="1" description="" specification="- Range Start:Negative&#10;- Range Length:Negative&#10;- Position:Inside&#10;  - Position in Range:Upper Border" comment="" uuid="2c3f390d-7e26-4706-a89f-000d49b1e41b" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710070" last_synchronized="0">
+			<teststep name="" id="1047" foreign_id="0" testdata_id="1073741840" type="1" state_mask="0x5B00" repeat_count="1" description="" specification="" comment="" uuid="374784bb-ef27-42e0-b714-ff8d337d7aa6" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710070" last_synchronized="0">
+			</teststep>
+		</testcase>
+		<testcase name="" type="1" id="1048" foreign_id="0" testdata_id="1073741841" state_mask="0x3700" testcase_number="10" child_count="1" description="" specification="- Range Start:Zero&#10;- Range Length:Negative&#10;- Position:Outside&#10;  - Where ?:Above" comment="" uuid="85f90aba-bd6a-4089-84b5-27b90b27d5e3" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710095" last_synchronized="0">
+			<teststep name="Test Step 10.1" id="1049" foreign_id="0" testdata_id="1073741842" type="1" state_mask="0x3700" repeat_count="1" description="Description 10.1" specification="Specification 10.1" comment="" uuid="04b8e0b1-0cd9-4818-a116-22aea9bff232" testitem_state_mask="0x80" usercode_state_mask="0x00" last_modified="1591245710094" last_synchronized="0">
+			</teststep>
+		</testcase>
+	</testitems>
+</testobject>
